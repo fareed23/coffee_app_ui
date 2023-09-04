@@ -3,13 +3,14 @@
 import 'package:flutter/material.dart';
 
 class CoffeeCard extends StatelessWidget {
-  final coffeeImagePath;
-  final coffeeName;
-  final withCoffee;
+  final String coffeeImagePath;
+  final String coffeeName;
+  final String withCoffee;
   final double coffeePrice;
 
   CoffeeCard(
-      {required this.coffeeImagePath,
+      {super.key,
+      required this.coffeeImagePath,
       required this.coffeeName,
       required this.withCoffee,
       required this.coffeePrice});

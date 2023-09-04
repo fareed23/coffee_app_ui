@@ -22,7 +22,7 @@ class _IntroPageState extends State<IntroPage> {
             height: 580,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('lib/coffees/coffee6.webp'),
+                image: AssetImage('lib/assets/images/coffee6.webp'),
                 fit: BoxFit.cover,
               ),
             ),

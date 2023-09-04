@@ -1,3 +1,5 @@
+import 'package:coffeeappui/pages/intro_page.dart';
+import 'package:coffeeappui/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 
 import 'pages/home_page.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme:
           ThemeData(brightness: Brightness.dark, primarySwatch: Colors.orange),
-      home: const HomePage(),
+      home: const SplashPage(),
     );
   }
 }

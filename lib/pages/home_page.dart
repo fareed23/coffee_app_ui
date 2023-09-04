@@ -71,7 +71,9 @@ class _HomePageState extends State<HomePage> {
                     height: 130,
                     decoration: BoxDecoration(
                       image: const DecorationImage(
-                        image: AssetImage('lib/coffees/coffee1.jpeg'),
+                        image: AssetImage(
+                          'lib/assets/images/coffee1.jpeg',
+                        ),
                         fit: BoxFit.fitWidth,
                       ),
                       color: Colors.black54,
@@ -158,19 +160,19 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 children: [
                   CoffeeCard(
-                    coffeeImagePath: 'lib/images/latte.jpg',
+                    coffeeImagePath: 'lib/assets/images/latte.jpg',
                     coffeeName: 'Latte',
                     withCoffee: 'Almond Milk',
                     coffeePrice: 4.25,
                   ),
                   CoffeeCard(
-                    coffeeImagePath: 'lib/images/cappucino.jpeg',
+                    coffeeImagePath: 'lib/assets/images/cappucino.jpeg',
                     coffeeName: 'Cappucino',
                     withCoffee: 'Oat Milk',
                     coffeePrice: 2.99,
                   ),
                   CoffeeCard(
-                    coffeeImagePath: 'lib/images/icedcoffee.jpeg',
+                    coffeeImagePath: 'lib/assets/images/icedcoffee.jpeg',
                     coffeeName: 'Iced Coffee',
                     withCoffee: 'Extra Ice',
                     coffeePrice: 3.45,

@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 
 class CoffeeTypes extends StatelessWidget {
-  final coffeeType;
+  final String coffeeType;
 
-  CoffeeTypes({required this.coffeeType});
+  const CoffeeTypes({
+    Key? key,
+    required this.coffeeType,
+  }) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Row(
